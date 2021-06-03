@@ -1,0 +1,197 @@
+header {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+header .grid-containerH {
+    display: grid;
+    grid-row-gap: 10px;
+    grid-template-columns: auto auto;
+    grid-template-areas: "logo buscador";
+    align-items: flex-end;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+header .grid-containerH .logo__header {
+    grid-area: logo;
+}
+
+header .grid-containerH .buscador__header {
+    grid-area: buscador;
+}
+
+header .container-fluid {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(5, 171, 185);
+    border-style: solid;
+    border-width: 1px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0px 20%;
+}
+
+nav a {
+    color: #313131;
+    padding: 14px 20px;
+    font-style: normal;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 1px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #05abb9;
+}
+
+nav .navbar navbar-light bg-light {
+    width: 40%;
+}
+
+body .encabezadoserv {
+    width: 100%;
+    height: 348px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+body .encabezadoserv .animate__animated {
+    font-style: normal;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 15px;
+    font-size: 50px;
+    font-weight: 300;
+    color: white;
+    text-align-last: center;
+    padding-top: 200px;
+    background-color: none;
+}
+
+body .bajada {
+    font-style: normal;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align-last: center;
+    color: white;
+}
+
+body .tituloTerciario {
+    color: #05abb9;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+}
+
+body h5 {
+    font-style: normal;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    letter-spacing: 1PX;
+    text-align-last: center;
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+
+body p {
+    font-style: normal;
+    font-family: "Roboto", sans-serif;
+    color: #5c5c5c;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+body .borde-turquesa {
+    border: 1px solid #05abb9;
+    width: 100%;
+    height: 40px;
+}
+
+body .letra-turquesa {
+    font-size: 15px;
+    font-style: normal;
+    font-family: "Roboto", sans-serif;
+    color: #05abb9;
+}
+
+body label {
+    border-color: #05abb9;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+body .labelcomentario {
+    height: 225px;
+}
+
+body .btn__contacto {
+    background-color: #05abb9;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: white;
+    border-radius: 25px;
+}
+
+body iframe {
+    padding: 20px;
+}
+
+.imagenProducto {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+body .botonP {
+    background-color: white;
+    border-color: #05abb9;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: #05abb9;
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
+
+body footer {
+    padding: 20px;
+    margin: 0px;
+    background-color: #05abb9;
+    background: linear-gradient(to top, #05abb9 35%, #0b8c94 100%);
+}
+
+body footer .footer__icon {
+    background-color: none;
+    color: white;
+    margin: 10px;
+    display: inline-block;
+}
+
+body footer .footer__texto {
+    margin: 0px;
+    color: white;
+    font-style: normal;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    text-align-last: center;
+}
