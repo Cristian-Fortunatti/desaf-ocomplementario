@@ -175,7 +175,21 @@ body {
     }
 
 }
+div {
+    .pro__alimentos{
+        .prod__ali{
+            font-style: normal;
+            font-family: 'Lato', sans-serif;
+            font-weight: normal;
+            color: rgb(77, 77, 77);
+            font-size: 12px;
+            text-align-last: center;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+    }
 
+}
 body {
     .botonP {
         background-color: rgb(255, 255, 255);
@@ -190,6 +204,10 @@ body {
         font-weight: bold;
         margin-bottom: 30px;
 
+    }
+
+    a {
+        text-decoration: none;
     }
 }
 

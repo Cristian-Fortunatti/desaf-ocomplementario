@@ -159,18 +159,105 @@ body iframe {
     margin-bottom: 20px;
 }
 
-body .botonP {
+body .boton__P {
     background-color: white;
     border-color: #05abb9;
     border-style: solid;
-    display: flex;
+    border-width: 1px;
     justify-content: center;
+    border-radius: 25px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.boton__P a {
+    text-decoration: none;
     font-style: normal;
     font-family: "Roboto", sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     color: #05abb9;
-    border-radius: 25px;
+}
+
+.boton__P:hover {
+    background-color: #05abb9;
+    font-style: normal;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.boton__P a:hover {
+    background-color: #05abb9;
+    color: #ffffff;
+}
+
+.prod__ali {
+    font-style: normal;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: #424242;
+    font-size: 18px;
+    text-align-last: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.precios {
+    color: #05abb9;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0px;
+
+}
+
+hr {
+    height: 1px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 15px;
+    background-color: rgb(156, 156, 156);
+}
+
+.card__icon {
+    background-color: none;
+    color: #05abb9;
+    margin-bottom: 10px;
+
+}
+
+.separadores {
+    height: 1.5px;
+    margin-left: 40px;
+    margin-right: 40px;
     margin-bottom: 30px;
+    background-color: #05abb9;
+}
+
+.tn__vinculo {
+    margin-bottom: 20px;
+}
+
+.producto__texto {
+    font-style: normal;
+    font-family: "Roboto", sans-serif;
+    color: #5c5c5c;
+    font-size: 15px;
+    text-align: center;
+}
+
+.texto__tiendanube {
+    font-style: normal;
+    font-family: "Roboto", sans-serif;
+    color: #5c5c5c;
+    font-size: 15px;
+    text-align: center;
+    line-height: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 body footer {
