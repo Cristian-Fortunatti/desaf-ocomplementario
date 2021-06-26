@@ -110,8 +110,32 @@ body p {
     font-style: normal;
     font-family: "Roboto", sans-serif;
     color: #5c5c5c;
-    font-size: 15px;
-    text-align: justify;
+    font-size: 13px;
+    text-align:left;
+    line-height: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+body .descripción__N {
+    font-style: normal;
+    font-family: "Roboto", sans-serif;
+    color: #5c5c5c;
+    font-size: 13px;
+    text-align:center;
+    line-height: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+body .descripción__R{
+    font-style: normal;
+    font-family: "Roboto", sans-serif;
+    color: #5c5c5c;
+    font-size: 13px;
+    text-align:left;
     line-height: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
@@ -202,6 +226,196 @@ body .boton__P {
     margin-bottom: 10px;
 }
 
+.grid-container {
+	display: grid;
+	grid-row-gap: 10px;
+	grid-template-columns: 600px auto;
+	grid-template-areas: 'imagen__N tituloTerciario__N'
+		'imagen__N descripción__N';
+	grid-template-rows: auto auto;
+	border-bottom: 1px;
+	border-color: rgb(5, 171, 185);
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.grid-container div {
+	background-color: rgb(255, 255, 255);
+}
+
+.imagen__N {
+	grid-area: imagen__N;
+}
+
+.tituloTerciario {
+	grid-area: tituloTerciario__N;
+}
+
+.descripción__N {
+    grid-area: descripción__N;
+}
+
+.imagen__N {
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.tituloTerciario__novedades {
+    color: #000000;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-align: left;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.descripción__N {
+    font-style: normal;
+    font-family: "Roboto", sans-serif;
+    color: #5c5c5c;
+    font-size: 13px;
+    text-align: left;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 80px;
+    margin-left: 20px;
+}
+
+.grid-container__N {
+	display: grid;
+	grid-row-gap: 10px;
+	grid-template-columns: 600px auto;
+	grid-template-areas: 'imagen__novedades tituloTerciario__novedades'
+		'imagen__novedades descripción__novedades';
+	grid-template-rows: auto auto;
+	border-bottom: 1px;
+	border-color: rgb(5, 171, 185);
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.grid-container div {
+	background-color: rgb(255, 255, 255);
+}
+
+.imagen__novedades {
+	grid-area: imagen__novedades;
+}
+
+.tituloTerciario__novedades {
+	grid-area: tituloTerciario__novedades;
+}
+
+.descripción__novedades {
+    grid-area: descripción__novedades;
+}
+
+.imagen__novedades {
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.grid-container {
+	display: grid;
+	grid-row-gap: 10px;
+	grid-template-columns: 600px auto;
+	grid-template-areas: 'imagen__Q descripción__N'
+		'video__N descripción__N';
+	grid-template-rows: auto auto;
+	border-bottom: 1px;
+	border-color: rgb(5, 171, 185);
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.grid-container div {
+	background-color: rgb(255, 255, 255);
+}
+
+.imagen__Q {
+	grid-area: imagen__Q;
+}
+
+.tituloTerciario {
+	grid-area: tituloTerciario__N;
+}
+
+.descripción__N {
+    grid-area: descripción__N;
+}
+
+.video__N {
+    grid-area: video__N;
+}
+
+.imagen__Q {
+    margin-left: 30px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+li {
+    margin-left: 20px;
+}
+
+
+.destacado {
+    color: #05abb9;
+    font-style: normal;
+    font-family: "Roboto", sans-serif;
+    font-weight:normal;
+    line-height: 200%;
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 0px;
+    }
+
+.boton__N {
+    background-color: rgb(255, 255, 255);
+    border-color: #05abb9;
+    border-style: solid;
+    border-width: 1px;
+    justify-content: center;
+    border-radius: 25px;
+    margin-top: 60px;
+    margin-left: 20px;
+       
+}
+
+.boton__N a {
+    text-decoration: none;
+    font-style: normal;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #05abb9;
+}
+
+.boton__N:hover {
+    background-color: #05abb9;
+    font-style: normal;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.boton__N a:hover {
+    background-color: #05abb9;
+    color: #ffffff;
+}
+
+.titulo__N {
+    font-style: normal;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 10px;
+    font-size: 35px;
+    font-weight: 300;
+    color: white;
+    text-align-last: center;
+    padding-top: 150px;
+    background-color: none;
+}
+
 .precios {
     color: #05abb9;
     font-style: normal;
@@ -210,7 +424,6 @@ body .boton__P {
     text-align: center;
     font-size: 30px;
     margin-top: 0px;
-
 }
 
 hr {
@@ -234,6 +447,21 @@ hr {
     margin-right: 40px;
     margin-bottom: 30px;
     background-color: #05abb9;
+}
+
+.separadores__N {
+    height: 1.5px;
+    margin-top: 0px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    background-color: #05abb9;
+}
+
+.separador__texto {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
 }
 
 .tn__vinculo {
@@ -281,4 +509,26 @@ body footer .footer__texto {
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     text-align-last: center;
+}
+
+
+@media (max-width: 990px){
+    nav,.imagen__N, .imagen__novedades, .encabezadoserv, .animate__animated, .bajada, 
+	.row {
+		flex-direction: column;
+	}
+
+    .grid-container__N {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .tituloTerciario__novedades {
+        flex-basis: 80%;
+    }
+
+    .descripción__novedades {
+        flex-basis: 20%;
+    }
 }
